@@ -2,7 +2,7 @@ package DBIx::Class::RandomStringColumns;
 use strict;
 use warnings;
 
-our $VERSION = '0.06';
+our $VERSION = '0.07';
 
 use base qw/DBIx::Class/;
 
@@ -60,7 +60,7 @@ sub get_random_string {
                 $self->rs_definition->{$column}->{length},
             )
         );
-    } while ( $rs->search( { $column => $val } )->count );
+    } while ( $rs->search( { "me.$column" => $val } )->count );
 
     return $val;
 }
