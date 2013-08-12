@@ -4,4 +4,5 @@ requires 'String::Random', '0.2';
 
 on build => sub {
     requires 'ExtUtils::MakeMaker', '6.36';
+    requires 'Test::Perl::Critic';
 };

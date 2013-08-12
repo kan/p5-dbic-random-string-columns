@@ -17,19 +17,29 @@ BEGIN {
 
     sub create_table {
         my $class = shift;
-        $class->storage->sth(q{
-            CREATE TABLE foo (
-                id  VARCHAR(32) PRIMARY KEY,
-                xxx VARCHAR(32)
-            )
-        })->execute;
+        $class->storage->dbh_do(
+            sub {
+                my ($storage, $dbh, @cols) = @_;
+                $dbh->do(q{
+                    CREATE TABLE foo (
+                        id  VARCHAR(32) PRIMARY KEY,
+                        xxx VARCHAR(32)
+                    )
+                });
+            },
+        );
         
-        $class->storage->sth(q{
-            CREATE TABLE bar (
-                id  VARCHAR(32) PRIMARY KEY,
-                xxx VARCHAR(32)
-            )
-        })->execute;
+        $class->storage->dbh_do(
+            sub {
+                my ($storage, $dbh, @cols) = @_;
+                $dbh->do(q{
+                    CREATE TABLE bar (
+                        id  VARCHAR(32) PRIMARY KEY,
+                        xxx VARCHAR(32)
+                    )
+                });
+            },
+        );
     }
 
     1;

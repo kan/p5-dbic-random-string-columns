@@ -17,15 +17,20 @@ BEGIN {
 
     sub create_table {
         my $class = shift;
-        $class->storage->sth(q{
-            CREATE TABLE foo (
-                session_id VARCHAR(32) PRIMARY KEY,
-                u_rand_id  VARCHAR(32),
-                number     INT,
-                rand_id    VARCHAR(32),
-                rand_id2   VARCHAR(32)
-            )
-        })->execute;
+        $class->storage->dbh_do(
+            sub {
+                my ($storage, $dbh, @cols) = @_;
+                $dbh->do(q{
+                    CREATE TABLE foo (
+                        session_id VARCHAR(32) PRIMARY KEY,
+                        u_rand_id  VARCHAR(32),
+                        number     INT,
+                        rand_id    VARCHAR(32),
+                        rand_id2   VARCHAR(32)
+                    )
+                });
+            },
+        );
     }
 
     1;

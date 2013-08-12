@@ -27,7 +27,8 @@
    "prereqs" : {
       "build" : {
          "requires" : {
-            "ExtUtils::MakeMaker" : "6.36"
+            "ExtUtils::MakeMaker" : "6.36",
+            "Test::Perl::Critic" : "0"
          }
       },
       "configure" : {
