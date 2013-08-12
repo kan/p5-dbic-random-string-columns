@@ -66,10 +66,10 @@
          "web" : "https://github.com/kan/p5-dbic-random-string-columns"
       }
    },
-   "version" : "0.07",
+   "version" : "0.08",
    "x_contributors" : [
       "kan <kan@d0d07461-0603-4401-acd4-de1884942a52>",
       "tomi-ru <tomi-ru@d0d07461-0603-4401-acd4-de1884942a52>",
-      "kan fushihara <kan.fushihara@gmail.com>"
+      "Kan Fushihara <kan.fushihara@gmail.com>"
    ]
 }
