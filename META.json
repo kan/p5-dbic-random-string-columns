@@ -28,6 +28,7 @@
       "build" : {
          "requires" : {
             "ExtUtils::MakeMaker" : "6.36",
+            "Perl::Critic" : "1.118",
             "Test::Perl::Critic" : "0"
          }
       },
@@ -66,7 +67,7 @@
          "web" : "https://github.com/kan/p5-dbic-random-string-columns"
       }
    },
-   "version" : "0.08",
+   "version" : "0.09",
    "x_contributors" : [
       "kan <kan@d0d07461-0603-4401-acd4-de1884942a52>",
       "tomi-ru <tomi-ru@d0d07461-0603-4401-acd4-de1884942a52>",

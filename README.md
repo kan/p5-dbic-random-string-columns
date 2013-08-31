@@ -2,8 +2,6 @@
 
 DBIx::Class::RandomStringColumns - Implicit random string columns
 
-[![Build Status](https://travis-ci.org/kan/p5-dbic-random-string-columns.png?branch=master)](https://travis-ci.org/kan/p5-dbic-random-string-columns)
-
 # SYNOPSIS
 
     pacakge CD;
