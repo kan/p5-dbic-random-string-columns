@@ -52,7 +52,7 @@ Note that the component needs to be loaded before Core.
 
 Kan Fushihara  `<kan __at__ mobilefactory.jp>`
 
-# LICENCE AND COPYRIGHT
+# LICENSE AND COPYRIGHT
 
 Copyright (c) 2006, Kan Fushihara `<kan __at__ mobilefactory.jp>`. All rights reserved.
 

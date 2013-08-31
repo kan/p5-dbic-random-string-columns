@@ -4,7 +4,7 @@
       "Kan Fushihara  C<< <kan __at__ mobilefactory.jp> >>"
    ],
    "dynamic_config" : 0,
-   "generated_by" : "Minilla/v0.5.6, CPAN::Meta::Converter version 2.120921",
+   "generated_by" : "Minilla/v0.6.4, CPAN::Meta::Converter version 2.131560",
    "license" : [
       "perl_5"
    ],

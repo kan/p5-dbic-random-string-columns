@@ -121,7 +121,7 @@ Note that the component needs to be loaded before Core.
 
 Kan Fushihara  C<< <kan __at__ mobilefactory.jp> >>
 
-=head1 LICENCE AND COPYRIGHT
+=head1 LICENSE AND COPYRIGHT
 
 Copyright (c) 2006, Kan Fushihara C<< <kan __at__ mobilefactory.jp> >>. All rights reserved.
 
