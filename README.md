@@ -2,8 +2,6 @@
 
 DBIx::Class::RandomStringColumns - Implicit random string columns
 
-[![Build Status](https://travis-ci.org/kan/p5-dbic-random-string-columns.png?branch=master)](https://travis-ci.org/kan/p5-dbic-random-string-columns)
-
 # SYNOPSIS
 
     pacakge CD;
@@ -23,8 +21,8 @@ DBIx::Class::RandomStringColumns - Implicit random string columns
 
 # DESCRIPTION
 
-This [DBIx::Class](http://search.cpan.org/perldoc?DBIx::Class) component reassemble the behavior of
-[Class::DBI::Plugin::RandomStringColumn](http://search.cpan.org/perldoc?Class::DBI::Plugin::RandomStringColumn), to make some columns implicitly created as random string.
+This [DBIx::Class](https://metacpan.org/pod/DBIx::Class) component reassemble the behavior of
+[Class::DBI::Plugin::RandomStringColumn](https://metacpan.org/pod/Class::DBI::Plugin::RandomStringColumn), to make some columns implicitly created as random string.
 
 Note that the component needs to be loaded before Core.
 
@@ -57,4 +55,4 @@ Kan Fushihara  `<kan __at__ mobilefactory.jp>`
 Copyright (c) 2006, Kan Fushihara `<kan __at__ mobilefactory.jp>`. All rights reserved.
 
 This module is free software; you can redistribute it and/or
-modify it under the same terms as Perl itself. See [perlartistic](http://search.cpan.org/perldoc?perlartistic).
+modify it under the same terms as Perl itself. See [perlartistic](https://metacpan.org/pod/perlartistic).
