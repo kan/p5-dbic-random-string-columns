@@ -2,6 +2,9 @@ Revision history for Perl extension DBIx::Class::RandomStringColumns
 
 {{$NEXT}}
 
+0.10 2016-05-25T07:37:29Z
+        - fix unit test (thx. eserte)
+
 0.09 2013-08-31T15:11:38Z
         - fixed pod spelling.
 
